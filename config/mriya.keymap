@@ -62,18 +62,6 @@
             layers = <0 1 2>;
         };
 
-        left {
-            bindings = <&kp LEFT_ARROW>;
-            key-positions = <38 39>;
-            layers = <0 1 2>;
-        };
-
-        right {
-            bindings = <&kp RIGHT>;
-            key-positions = <45 44>;
-            layers = <0 1 2>;
-        };
-
         block {
             bindings = <&kp LG(L)>;
             key-positions = <0 13>;
@@ -83,6 +71,30 @@
         terminal {
             bindings = <&kp LA(LC(T))>;
             key-positions = <41 42>;
+        };
+
+        left {
+            bindings = <&kp LEFT>;
+            key-positions = <38 44>;
+            layers = <0 1 2>;
+        };
+
+        right {
+            bindings = <&kp RIGHT>;
+            key-positions = <45 39>;
+            layers = <0 1 2>;
+        };
+
+        lay0 {
+            bindings = <&tog 0>;
+            key-positions = <17 18>;
+            layers = <0 1 2>;
+        };
+
+        lay1 {
+            bindings = <&tog 1>;
+            key-positions = <21 22>;
+            layers = <0 1 2>;
         };
     };
 
