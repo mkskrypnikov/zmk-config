@@ -134,7 +134,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "CPST";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_SHIFT>, <&kp LS(K_COPY)>, <&kp K_PASTE>;
+            bindings = <&kp RIGHT_SHIFT>, <&kp LC(C)>, <&kp LC(V)>;
         };
     };
 
