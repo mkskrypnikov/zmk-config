@@ -93,6 +93,12 @@
             key-positions = <30 29>;
             layers = <0 1 2>;
         };
+
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <12 11>;
+            layers = <1 0 3 4>;
+        };
     };
 
     behaviors {
